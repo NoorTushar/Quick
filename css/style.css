@@ -1,0 +1,58 @@
+/* Common Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* Common Style */
+/* 
+Navy Color: color: #102656;
+Light Blue Color: color: #008AFF;
+*/
+
+/* Header Start */
+header {
+  border-bottom: 1px solid rgba(221, 211, 211, 0.998);
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  flex-basis: 7%;
+}
+.logo a {
+}
+.logo a img {
+  width: 100%;
+}
+.navigation {
+}
+.navigation ul {
+}
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+}
+.navigation ul li a {
+  color: blue;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 16px;
+  color: #102656;
+  transition: 0.4s;
+}
+.navigation ul li:last-child a {
+  padding-right: 0;
+}
+.navigation ul li a:hover {
+  color: #008aff;
+  transition: 0.4s;
+}
+/* Header End */
